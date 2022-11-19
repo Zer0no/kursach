@@ -1,0 +1,83 @@
+#advantagesPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#advantagesContent{
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.advPart{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title{
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    color: #444444;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 35pt;
+    font-weight: 700;
+}
+
+.cardBlock{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    width: 31%;
+    height: 70%;
+    border-radius: 40px;
+    background-color: #fff;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3fr 7fr;
+}
+
+.cardImg{
+    margin-left: 2%;
+    object-fit: inherit;
+    height: 50%;
+}
+
+.cardText{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.textTitle{
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #9492FF;
+    font-weight: 700;
+    font-size: 19pt;
+}
+
+.text{
+    width: 90%;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #444444;
+    font-weight: 400;
+    font-size: 13pt; 
+}
+
+
+
+

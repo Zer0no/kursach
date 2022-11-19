@@ -1,0 +1,81 @@
+#ourLifePart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#ourLifeContent{
+    width: 70%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+#title{
+    text-align: center;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444444;
+    font-weight: 700;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 35pt;
+}
+
+#photos{
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 20px;
+    grid-template-areas: "dog1 cat1 cat2" "dog1 dog2 cat3";
+}
+
+img{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+
+#dog1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 5;
+    grid-column-end: 1;
+    
+ }
+ #cat1 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+ 
+    grid-row-end: 3;
+    grid-column-end: 4;
+    
+ }
+ #dog2 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+ 
+    grid-row-end: 5;
+    grid-column-end: 2;
+    
+ }
+ #cat2 {
+    grid-row-start: 1;
+    grid-column-start: 4;
+ 
+    grid-row-end: 3;
+    grid-column-end: 4;
+    
+ }
+ #cat3 {
+    grid-row-start: 3;
+    grid-column-start: 3;
+ 
+    grid-row-end: 5;
+    grid-column-end: 5;
+    
+ }
