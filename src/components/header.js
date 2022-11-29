@@ -5,9 +5,9 @@ import dog from "../media/headrImg.png"
 function HeaderPart(){
     return <header>
         <div id="headerMenu">
-        <div id="logo">
-            <div id="img"></div>
-            <div id="name">Ленинградский <br/>приют</div>
+        <div id="menuLogo">
+            <div id="logoImg"></div>
+            <div id="logoName">Ленинградский <br/>приют</div>
         </div>
         <nav id="headerNavigation">
             <ul>
@@ -23,7 +23,7 @@ function HeaderPart(){
         <div id="headerContent">
             <div id="contentText">Приют для животных <br/>в Ленинградской области</div>
             <div id="contentSlogan">Подари дом пушистому другу</div>
-            <div id="showPetsBtn">Посмотреть животных</div>
+            <div id="showPetsBtn" onClick={()=>{document.getElementById("ourFriendsPart").scrollIntoView()}}>Посмотреть животных</div>
         </div>
         	
     <img id="headerImg" src={dog} alt="альтернативный текст"/>

@@ -7,7 +7,7 @@
 
 #advantagesContent{
     width: 70%;
-    height: 60%;
+    height: 70%;
     margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@
     text-align: center;
     color: #444444;
     font-family: "Open Sans", Arial, sans-serif;
-    font-size: 35pt;
+    font-size: 3vw;
     font-weight: 700;
 }
 
@@ -50,13 +50,13 @@
 }
 
 .cardImg{
-    margin-left: 2%;
+    margin: 0 auto;
     object-fit: inherit;
-    height: 50%;
+    height: 42%;
 }
 
 .cardText{
-    height: 75%;
+    height: 65%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -67,7 +67,7 @@
     font-family: "Open Sans", Arial, sans-serif;
     color: #9492FF;
     font-weight: 700;
-    font-size: 19pt;
+    font-size: 1.4vw;
 }
 
 .text{
@@ -75,7 +75,7 @@
     font-family: "Open Sans", Arial, sans-serif;
     color: #444444;
     font-weight: 400;
-    font-size: 13pt; 
+    font-size: 1vw; 
 }
 
 

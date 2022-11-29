@@ -1,23 +1,154 @@
+#footerPart{
+    height: 120vh;
+    display: flex;
+  
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
   #footerOverlay{
+    position: absolute;
     display: flex;
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     background: #9492FF;
-    position: absolute;
-    transform: translateY(90vh);
+    align-items: flex-end;
   }
   
   #contacts{
-    width: 50%;
+    width: 40%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7%;
   }
   
   #overlayCat{
-    width: 40%;
-    height: 100%;
+    height: 105%;
   }
 
   footer{
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
   }
+
+  #footerLogoImg{
+    background-image: url("../media/logo.svg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    width: 25%;
+    height: 100%;
+    background-position: right;
+  }
+  
+  #footerLogoName{
+    color: #646464;
+    font-family: "OpenSans", Arial, sans-serif;
+    font-size: 0.9vw;
+    font-weight: 100;
+  }
+
+  #footerLogo{
+    gap: 2%;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    height: 16%;
+    display: flex;
+  }
+
+  #time{
+    line-height: 170%;
+    font-size: 2vh;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #646464;
+  }
+
+  #footerContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #footerCon{
+    margin-top: 3%;
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+  }
+
+  #footerTitle{
+    color:#444;
+    width: 100%;
+    font-family: "Open Sans", Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 3vw;
+  }
+
+  #sliderBlock{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .block{
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 50vw;
+    height: 50vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+  }
+
+  .photo{
+    height: 90%;
+    border-radius: 20px;
+    margin: 0 5%;
+  }
+
+
+.sliderContent{
+  color: #444;
+  height: 80%;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.3vw;
+  margin-right: 5%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sliderName{
+  font-size: 1.6vw;
+}
+
+.nameBold{
+  color: #9492FF;
+  font-weight: 700;
+}
+
+.sliderBtn{
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  width: 10%;
+}
+
+#carousel{
+  width: 80%;
+}

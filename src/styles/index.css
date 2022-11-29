@@ -10,13 +10,18 @@ body {
 .contentPart{
   margin: 0 auto;
   width: 100vw;
-  height: 120vh;
+  height: 100vh;
+}
+
+.content{
+  width: 70%;
+  height: 70%;
 }
 
 .oddContentPart{
   overflow: hidden;
   background-repeat: no-repeat;
-  background-size: 100% 90%;
+  background-size: 100% 100%;
   background-position: center;
   background-image: url("../media/oddBackground.svg");
 }
@@ -24,6 +29,7 @@ body {
 .evenContentPart{
   overflow: hidden;
   background-repeat: no-repeat;
+  height: 120vh;
   background-size: 90% 80%;
   background-position: center;
   background-image: url("../media/evenBackground.svg");  

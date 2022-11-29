@@ -10,7 +10,7 @@ header{
 #headerMenu{
   width: 70%;
   height: 10%;
-  margin: 1% auto;
+  margin: 2% auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -36,8 +36,12 @@ header{
   margin: 0 2.5%;
 }
 
+.headerNavElement{
+  cursor: pointer;
+}
+
 .headerNavElement a{
-  font-size: 13pt;
+  font-size: 1.1vw;
   font-family: "OpenSans", Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -54,14 +58,14 @@ header{
   color: #646464;
 }
 
-#logo{
+#menuLogo{
   align-items: center;
   width: 30%;
   height: 100%;
   display: flex;
 }
 
-#img{
+#logoImg{
   background-image: url("../media/logo.svg");
   background-repeat: no-repeat;
   background-size: auto 100%;
@@ -70,15 +74,15 @@ header{
   height: 50%;
 }
 
-#name{
+#logoName{
   color: #646464;
   font-family: "OpenSans", Arial, sans-serif;
-  font-size: 15pt;
+  font-size: 1.1vw;
   font-weight: 100;
 }
 
 #headerContent{
-  width: 50%;
+  width: 45%;
   height: 40%;
   display: grid;
   grid-template-rows: 5fr 2fr 2fr;
@@ -91,7 +95,7 @@ header{
   font-family: "OpenSans", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 42pt;
+  font-size: 2.8vw;
   color: #444444;
   display: flex;
   align-items: flex-end;
@@ -104,28 +108,28 @@ header{
   color: #959595;
   font-family: 'OpenSans', Arial, sans-serif;
   font-weight: 700;
-  font-size: 23pt;
+  font-size: 1.8vw;
 }
 
 #showPetsBtn{
   cursor: pointer;
   background-color: #9492FF;
-  width: 40%;
+  width: 50%;
   height: 90%;
   border-radius: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
-  font-size: 17pt;
+  font-size: 1.3vw;
   font-family: "OpenSans", Arial, sans-serif;
   font-weight: 700;
 }
 
 #headerImg{
   position: absolute;
-  right: 5%;
-  bottom: 2%;
+  right: 7%;
+  bottom: 5%;
   width: 30%;
   height: auto;
 }

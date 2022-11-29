@@ -4,7 +4,7 @@ function QuestionsPart() {
   return (
     <div id="questionsPart" class="contentPart oddContentPart">
       <div id="questionsContent">
-        <div id="title">Часто задаваемые вопросы</div>
+        <div id="questionsTitle">Часто задаваемые вопросы</div>
         <div id='questions'>
           <div class="questionBlock">
             <div class="question">Поладит ли животное из приюта с ребёнком?</div>

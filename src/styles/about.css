@@ -30,14 +30,13 @@
 #aboutOwner{
     color: #444444;
     margin-top: 5%;
-    font-size: 20pt;
+    font-size: 1.4vw;
     font-family: 'OpenSans', Arial, sans-serif;
     font-weight: 100;
-    line-height: 40px;
 }
 
 #aboutOwner span{
-    font-size: 24pt;
+    font-size: 1.9vw;
 }
 
 #aboutOwner span span{
@@ -57,12 +56,13 @@
     color: #444444;
 }
 
-#text #title{
+#text #aboutTitle{
     font-weight: 700;
-    font-size: 35pt;
+    font-size: 3vw;
 }
 
 #text #aboutText{
     font-weight: 400;
-    font-size: 18pt;
+    line-height: 3.9vh;
+    font-size: 1.4vw;
 }
